@@ -1,0 +1,30 @@
+
+body{
+  font-family: Lato
+}
+/*.chart div{
+  font-size: 20px;
+  padding: 10px;
+  margin: 1px;
+  text-align: right;
+}
+
+.chart div:nth-child(2n) {
+  background-color: #742480;
+  color: white;
+}
+
+.chart div:nth-child(2n+1) {
+
+  background-color: #F5F5F5;
+  color: #742480;
+}
+*/
+  svg.chart rect{
+    fill: #742480;
+  }
+
+  svg.chart text{
+    fill: white;
+    text-anchor: end;
+  }
